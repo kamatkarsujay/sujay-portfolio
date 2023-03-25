@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center px-12 w-full h-20 fixed z-10 bg-slate-100">
       <div>
-        <h1 className="lg:text-5xl sm:text-3xl font-signature ml-2">
+        <h1 className="text-2xl lg:text-5xl font-signature ml-2">
           Sujay Kamatkar
         </h1>
       </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-gray-500"
+              className="px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500"
             >
               <Link
                 onClick={() => setNav(!nav)}
@@ -76,6 +76,16 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <li className="px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500">
+            <a
+              href="/resume.pdf"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       )}
     </div>

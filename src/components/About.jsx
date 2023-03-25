@@ -9,11 +9,11 @@ const About = () => {
       justify-center w-full h-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-700">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl text-gray-500 mt-20">
           My name is Sujay Kamatkar. I am excited to begin my career as a
           software developer/full stack developer. I have a strong foundation in
           computer science principles and a passion for creating innovative
@@ -25,7 +25,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl text-gray-500">
           I am a quick learner and am eager to continue learning and growing as
           a professional in the industry. In my free time, I enjoy staying up to
           date with the latest trends and technologies in the industry.

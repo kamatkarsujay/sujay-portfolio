@@ -21,7 +21,7 @@ const Portfolio = () => {
       id: 3,
       src: cryptoview,
       code: "https://github.com/kamatkarsujay/cryptoview",
-      demo: "https://github.com/kamatkarsujay/cryptoview",
+      demo: "https://cryptoview-delta.vercel.app/",
     },
     {
       id: 4,
@@ -41,7 +41,9 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-gray-500">
+            Check out some of my work right here
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

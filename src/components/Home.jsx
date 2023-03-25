@@ -18,7 +18,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             with good problem-solving skills and ability to work well with
-            teams. I've 1 year of experience building full stack applications.
+            teams. I've been building full stack applications for almost 1 year.
           </p>
           <div>
             <Link to="portfolio" smooth duration={500}>
