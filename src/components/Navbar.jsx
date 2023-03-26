@@ -29,11 +29,11 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center px-12 w-full h-20 fixed z-10 bg-slate-100">
+    <div className="flex justify-between items-center px-12 w-full h-20 fixed top-0 left-0 right-0 z-10 bg-slate-100">
       <div>
         <Link
           to="home"
-          className="text-2xl lg:text-5xl font-signature ml-2 cursor-pointer"
+          className="text-2xl lg:text-5xl font-signature cursor-pointer"
           smooth
           duration={500}
         >
@@ -56,7 +56,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 md:hidden"
+        className="cursor-pointer z-10 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

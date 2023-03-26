@@ -10,7 +10,17 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6 text-gray-500">
-            Submit the form below to get in touch with me
+            You can contact me through my mail id{" "}
+            <a
+              href="mailto:sujaykamatkar382@gmail.com"
+              className="font-bold inline border-b-2 border-gray-600"
+            >
+              sujaykamatkar382@gmail.com
+            </a>
+          </p>
+          <p>------- OR --------</p>
+          <p className="py-4 text-gray-500">
+            Submit the below form to get in touch with me
           </p>
         </div>
 
