@@ -14,9 +14,9 @@ const About = () => {
           </p>
         </div>
         <p className=" text-gray-500 mt-20">
-          Hi, my name is Sujay Kamatkar. Dedicated and efficient software
-          developer/full stack developer. My expertise is in ReactJS,
-          JavaScript, NodeJS, and C++.
+          Hi, my name is Sujay Kamatkar. Dedicated and efficient front end/full
+          stack developer. My expertise is in ReactJS, JavaScript, NodeJS, and
+          C++.
         </p>
 
         <br />
